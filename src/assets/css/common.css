@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.el-table__body-wrapper {
+  overflow: hidden;
+}
+
+/*选中时候的状态*/
+.silderStyle .el-menu .el-menu-item:focus {
+  background-color: #050C8B;
+}
+
+.silderStyle .el-menu li.el-menu-item {
+  padding: 0 20px 0 30px !important;
+}
+
+.silderStyle .el-menu li.el-menu-item {
+    width: 100%;
+    font-weight: 400;
+}
+
+.el-menu-item {
+  padding: 0 40px !important;
+}
+
+.el-submenu__title {
+  padding: 0px !important;
+}
+
+.el-submenu .el-menu-item {
+    min-width: 100%;
+}
+
+.panel {
+  border: none;
+  margin-bottom: 0px;
+  position: fixed;
+  font-weight: 700;
+}
+
+.mainStyle {
+    margin-left: 14.5%;
+    padding: 40px;
+}
+
+
+/* 表单格式设置 */
+
+.divStyle .el-form-item__label {
+  padding: 0px;
+  line-height: 0px;
+}
+
+.divStyle .el-select{
+  width:100%;
+}
+
+/*新增车位样式的设置*/
+.divcontent .el-form-item {
+  margin-bottom: 20px;
+}
+
+/*道闸模态框的样式*/
+.modelStyle .el-dialog__header {
+  border-bottom: 1px solid #dededf;
+  /*height: 65px;*/
+  line-height: 40px;
+}
+
+.modelStyle .el-dialog__footer{
+  border-top: 1px solid #dededf;
+  background-color: #dededf;
+}
+.modelStyle .el-dialog__body{
+  padding: 21px;
+}
+.modelStyle .el-form-item{
+  margin-bottom: 15px;
+}
+
+/*道闸模态框的样式*/
+.modelStyle .el-dialog__header {
+  border-bottom: 1px solid #dededf;
+  /*height: 65px;*/
+  line-height: 40px;
+}
+
+.modelStyle .el-dialog__footer{
+  border-top: 1px solid #dededf;
+  background-color: #dededf;
+}
+.modelStyle .el-dialog__body{
+  padding: 21px;
+}
+.modelStyle .el-form-item{
+  margin-bottom: 15px;
+}
+/*登出按钮的样式*/
+.manage_page .el-button--medium{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.manage_page .el-menu{
+  width: 100%;
+}
+/*table菜单栏的样式*/
+.footStyle {
+  height: 60px;
+  padding: 5px;
+  line-height: 50px;
+  border: 1px solid #ebeef5;
+  border-top: none;
+  text-align: right;
+}
+
+/*app消息推送的样式*/
+.infoStyle .el-form-item__label{
+  line-height: 20px;
+  padding: 0;
+}
+.infoStyle .el-form-item{
+  margin-bottom:10px;
+}
+
+/*消息推送的样式布局*/
+.modelTableStyle .el-dialog__header {
+  border-bottom: 1px solid #dededf;
+  /*height: 65px;*/
+  line-height: 40px;
+}
+.modelTableStyle .el-dialog__footer{
+  padding: 0px;
+}
+.modelTableStyle .page{
+  width: 100%;
+  height: 40px;
+  padding: 2px 0px;
+}
+
+.modelTableStyle .page .numberStyle{
+  margin-right: 10px;
+}
+
+.modelTableStyle .page .pageStyle{
+  margin-left: 10px;
+}
+.modelTableStyle .paingchild {
+  margin: 0px;
+}
+
+.modelTableStyle .btnStyle {
+  margin-top: 10px;
+  border-top: 1px solid #ebeef5;
+  height: 65px;
+  line-height: 40px;
+  padding: 15px 15px 10px;
+  box-sizing: border-box;
+}
+
+.modelTableStyle .el-dialog__body{
+  padding: 10px 20px 20px;
+}
+
+/*新增标签的样式*/
+/*.addTagStyle .el-input--prefix .el-input__inner {
+  padding-left: 30px;
+  width: 294px;
+}*/
+.addTagStyle .inputWidthStyle {
+  width:348px;
+}
+
+/*模态框搜索框的样式*/
+.modelSearch .el-form--inline .el-form-item__label{
+  margin-top: 10px;
+}
+
+.add-parkingarea .el-form--inline .el-form-item__label{
+  margin-top: 0;
+}
+
+/*用户信息这一块的样式*/
+.listStyle .el-tag {
+  border-radius: 0px;
+}
+
+.el-tag {
+  border-radius: 0px;
+}
+
+/*bootstrap中的一些样式*/
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.paingchild {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.paingchild > li {
+  display: inline;
+}
+
+.paingchild > li > a, .paingchild > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.paingchild > .disabled > span, .paingchild > .disabled > span:hover, .paingchild > .disabled > span:focus, .paingchild > .disabled > a, .paingchild > .disabled > a:hover, .paingchild > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.paingchild > li:first-child > a, .paingchild > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.paingchild > li > a:hover, .paingchild > li > span:hover, .paingchild > li > a:focus, .paingchild > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.paingchild > li > a, .paingchild > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.paingchild > .active > a, .paingchild > .active > span, .paingchild > .active > a:hover, .paingchild > .active > span:hover, .paingchild > .active > a:focus, .paingchild > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.selectStyle select[data-v-760faea4] {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  line-height: 1.1;
+  color: inherit;
+}
+
+/*图文详情的时候*/
+.ulStyle > li {
+  height: 100%;
+  width: 48.5%;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.ulStyle .listStyle{
+  width: 100%;
+}
+
+.el-select-dropdown__item{
+  width:100%;
+}
+.el-select-dropdown__list{
+  width: 100%;
+}
+
+.h2Style {
+  color: #303133;
+  margin-bottom: 10px;
+}
+
+.h4Style {
+  color: #606266;
+  margin-top: 16px;
+  padding: 1px 0px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/*bootstrap的表单*/
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.tbodyStyle td[data-v-b329b218] {
+  height: 42px;
+  vertical-align: middle;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.tbodyStyle td[data-v-5a8fb99f] {
+  height: 42px;
+  vertical-align: middle;
+}
+
+.myUpload .el-upload__input{
+  display: none !important;
+}
+
+/*单选框的样式*/
+.radio .el-radio__label{
+  display: none;
+}
+
+
+/* padking-add页面 select的样式 */
+.parking-add .el-select{
+  width: 100%;
+}
+/* padking-edit页面 select的样式 */
+.parking-edit .el-select{
+  width: 100%;
+}
+
+/* commonInfo.vue中时间选择框的样式 */
+.common-style-picker .el-date-editor.el-input, .common-style-picker .el-date-editor.el-input__inner{
+  width: 150px; 
+}
+
+/* estateAdd.vue 中查看优惠券label的设置 */
+.divStyle .estate-combo .el-form-item__label{
+  line-height: 40px;
+}
